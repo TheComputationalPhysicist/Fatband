@@ -1,0 +1,18 @@
+# General Settings
+structure="Sc_2C" # to write 2 in subscript in the plot
+seedname="Sc2C" 
+y_min=-4
+y_max=3
+E_f=-3.9746
+
+# High-Symmetry Points and Labels
+high_sym_points=(0.000000 0.666324 0.999484 1.577113)
+high_sym_labels=("{/Symbol\ G}" "K" "M" "{/Symbol\ G}")
+
+# Fatband Structure Definition
+structure_name="$seedname"
+atoms_and_orbitals=(
+    "Atom = C; Orbitals = 2p"
+    "Atom = Sc; Orbitals = 3d,3dxy,3dyz,3dz2,3dxz,3dx2-y2"
+)
+
